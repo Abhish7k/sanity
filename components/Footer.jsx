@@ -79,14 +79,17 @@ export default function Footer() {
         {/* Important links */}
         <div className="flex flex-col gap-6 ml-1">
           <h1 className="text-2xl font-semibold">Important Links</h1>
-          <div className="flex flex-col gap-4 font-medium text-gray-600 dark:text-gray-400">
+          <div className="flex flex-col gap-4 font-medium">
             <Link
               href="https://discord.com/invite/rUYVa93Svr"
-              className="hover:underline"
+              className="text-foreground/70 hover:text-foreground/85 transition-all"
             >
               Join Community
             </Link>
-            <Link href="/contact" className="hover:underline">
+            <Link
+              href="/contact"
+              className="text-foreground/70 hover:text-foreground/85 transition-all"
+            >
               Contact
             </Link>
           </div>
